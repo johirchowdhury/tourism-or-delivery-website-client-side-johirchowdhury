@@ -41,7 +41,7 @@ const ManageService = () => {
 
                             <td>{service.name}</td>
                             <td>{service.price}</td>
-                            <td>{service.description.slice(0, 20)}</td>
+                            <td>{service.description.slice(0, 100)}</td>
                             <td><button className="btn btn-danger" onClick={() => handleDelete(service._id)}>Delete</button></td>
 
 
