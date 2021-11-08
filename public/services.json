@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "ENGINE DIAGNOSTIC",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+        "name": "15 Days Taste of Europe Tour",
+        "price": "20000",
+        "description": "The 15-day taste of Europe Tour will take you to the heart of nine uniquely beautiful European countries: France, Luxembourg, Germany, Netherlands, Belgium, Switzerland, Italy, Monaco and Vatican City.",
+        "img": "https://www.obokash.com/imgs/packages/tour/15%20days%20taste%20of%20europe/15%20Days%20Europe%20Tour.jpg"
     },
     {
         "id": 2,
-        "name": "WHEEL ALIGNMENT",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "name": "Explore Uzbekistan with Golden Triangle (India) in 10 Days",
+        "price": "10000",
+        "description": "Air ticket with all taxes: Dhaka - Delhi - Dhaka, Delhi - Tashkent - Delhi (economy class)",
+        "img": "https://www.obokash.com/imgs/Indian_Tour.jpg"
     },
     {
         "id": 3,
-        "name": "OIL CHANGING",
-        "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "name": "Explore Vietnam & Cambodia in 05 Days",
+        "price": "15000",
+        "description": "LThe 05-days taste of Saigon and Phnom Ppenh tour will take you to the heart of beautiful Asian country: Vietnam and Cambodia. This tour is a perfect introduction to Asia, ideal for first timers and those who want to explore and experience as much as possible in 05 days.",
+        "img": "https://www.obokash.com/imgs/Cambodia_Tour.jpg"
     },
     {
         "id": 4,
-        "name": "BRAKE REPARING",
-        "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+        "name": "Explore Vietnam & Cambodia in 07 Days",
+        "price": "18000",
+        "description": "The 07-days taste of Vietnam and Cambodia tour will take you to the heart of beautiful Asian country: Vietnam and Cambodia. This tour is a perfect introduction to Asia, ideal for first timers and those who want to explore and experience as much as possible in 07 days. You'll start your journey enjoying the breathtaking Island scenery of Hanoi, Siem Reap where you will have the opportunity to experience hundreds of years of tradition and culture. Discover the amazing traditional life of Angkor and next day transfer to Airport to conclude your tour and be part of a truly memorable journey",
+        "img": "https://www.obokash.com/imgs/packages/obokash4.jpg"
     },
     {
         "id": 5,
-        "name": "WASH AND GLASSING",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+        "name": "Explore Vietnam & Cambodia in 10 Days",
+        "price": "9000",
+        "description": "The 10-days taste of Vietnam and Cambodia tour will take you to the heart of beautiful Asian country: Vietnam and Cambodia. This tour is a perfect introduction to Asia, ideal for first timers and those who want to explore and experience as much as possible in 10 days. You'll start your journey enjoying the breathtaking Island scenery of Hanoi, Siem Reap where you will have the opportunity to experience hundreds of years of tradition and culture. Discover the amazing traditional life of Angkor and next day transfer to Airport to conclude your tour and be part of a truly memorable journey",
+        "img": "https://www.obokash.com/imgs/packages/tour/vietnam%20and%20cambodia%207%20days/Vietnam%20Tour%20Plan.jpg"
     },
     {
         "id": 6,
-        "name": "COMPLETE ANALYSIS",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+        "name": "Umrah & Dubai Package - 15 Days",
+        "price": "50000",
+        "description": "সৌদি আরব থেকে এখন পর্যন্ত ওমরাহ্‌‘র ভিসা নিয়ে ভ্রমণকারীদের জন্য থার্ড কেরিয়ার বিমানগুলোকে অনুমতি দেয়নি, তাই আমরা ২০২১-২২ এর জন্য ওমরাহ্‌’র সাথে অন্য দেশের প্যাকেজগুলো আপডেট করিনি। আপাদত গতবছরের (২০২০) প্যাকেজগুলো দেখে ধারণা নিতে পারেন।",
+        "img": "https://www.obokash.com/imgs/packages/umrah/umrah%20and%20dubai%20package%2015%20days/15%20days%20Umrah%20and%20Dubai%20trip.jpg"
     }
 ]

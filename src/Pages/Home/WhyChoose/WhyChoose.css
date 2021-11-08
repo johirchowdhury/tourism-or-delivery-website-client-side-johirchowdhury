@@ -1,0 +1,7 @@
+.bg-opacity{
+    opacity: 0.9;
+    color:rgb(190, 190, 190)
+}
+.bg-opacity img{
+    border-radius: 50%;
+}

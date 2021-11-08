@@ -1,0 +1,8 @@
+.add-Service form{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: auto;
+    row-gap: 10px;
+}
