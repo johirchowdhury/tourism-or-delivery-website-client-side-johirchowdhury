@@ -7,19 +7,34 @@ initializeAuthentication();
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [isLoading, setIsLoading] = useState(true);
+    const googleProvider = new GoogleAuthProvider();
 
     const auth = getAuth();
-
-    const signInUsingGoogle = () => {
-        setIsLoading(true);
-        const googleProvider = new GoogleAuthProvider();
-
+    const signInUsingGoogle = (location, history) => {
         signInWithPopup(auth, googleProvider)
-            .then(result => {
-                setUser(result.user);
+            .then((result) => {
+                const user = result.user;
+                const destination = location?.state?.from || '/';
+                history.replace(destination);
+                // ...
+            }).catch((error) => {
+                console.log(error.message);
+
             })
             .finally(() => setIsLoading(false));
+
+
+
     }
+    // const signInUsingGoogle = () => {
+    //     setIsLoading(true);
+
+    //     signInWithPopup(auth, googleProvider)
+    //         .then(result => {
+    //             setUser(result.user);
+    //         })
+    //         .finally(() => setIsLoading(false));
+    // }
 
     // observe user state change
     useEffect(() => {

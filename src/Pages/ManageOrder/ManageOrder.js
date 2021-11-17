@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react';
 
-
-const ManageService = () => {
+const ManageOrder = () => {
     const [services, setService] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('http://localhost:5000/manageOrder')
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
     const handleDelete = id => {
-        const url = `http://localhost:5000/services/${id}`;
+        const url = `http://localhost:5000/manageOrder/${id}`;
         fetch(url, {
             method: 'DELETE'
         })
@@ -30,7 +29,7 @@ const ManageService = () => {
                     <tr>
                         <th scope="col">Name</th>
                         <th scope="col">Price</th>
-                        <th scope="col">Description</th>
+                        <th scope="col">Client Email</th>
                         <th scope="col">Action</th>
                     </tr>
                 </thead>
@@ -39,9 +38,9 @@ const ManageService = () => {
                     {
                         services.map(service => <tr key={service._id}>
 
-                            <td>{service.name}</td>
+                            <td>{service.productName}</td>
                             <td>{service.price}</td>
-                            <td>{service.description.slice(0, 100)}</td>
+                            <td>{service.email}</td>
                             <td><button className="btn btn-danger" onClick={() => handleDelete(service._id)}>Delete</button></td>
 
 
@@ -56,4 +55,4 @@ const ManageService = () => {
     );
 };
 
-export default ManageService;
+export default ManageOrder;

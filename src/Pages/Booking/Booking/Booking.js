@@ -6,7 +6,7 @@ const Booking = () => {
     const { serviceId } = useParams();
     const [service, setService] = useState({});
     useEffect(() => {
-        fetch(`https://obscure-waters-08334.herokuapp.com/services/${serviceId}`)
+        fetch(`http://localhost:5000/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
@@ -17,7 +17,7 @@ const Booking = () => {
                 <h3>{service.name}</h3>
                 <h5>Price: {service.price}</h5>
                 <p className="px-3">{service.description}</p>
-                <Link to={`/booking/${service._id}`}>
+                <Link to={`/orders/${service._id}`}>
                     <button className="btn btn-primary">Place Order </button>
                 </Link>
             </div>
